@@ -47,7 +47,7 @@ const Landingpage = () => {
                     </AnchorLink>
                 </div>
             </div>  
-            <div className="landing-page">
+            <div className="landing-page" id="start">
                 <div className="landing-page-text">
                     <h2>
                     Get credit and asset financing with ease.

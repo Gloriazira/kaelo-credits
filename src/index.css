@@ -65,7 +65,7 @@
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  margin: 5% 0 0 0
+  margin: 5% 0 3% 0
 }
 
 .landing-page-text {
@@ -76,14 +76,14 @@
 .landing-page-text h2 {
   width: 460px;
   font-weight: 800;
-  font-size: 50px;
-  line-height: 66px;
+  font-size: 60px;
+  /* line-height: 66px; */
 }
 
 .landing-page-text p {
-  width: 440px;
+  width: 490px;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 28px;
   margin: 10% 0;
 }
@@ -111,8 +111,8 @@
 
 
 .landing-page-image {
-  width: 650px;
-  height: 580px;
+  width: 800px;
+  height: 700px;
   /* width: 550px;
   height: 530px; */
   background-image: url('./assets/person1.png');
@@ -126,10 +126,10 @@
   position: absolute;
   display: flex;
   align-items: center;
-  width: 400px;
-  /* height: 120px; */
-  right: 208px;
-  bottom: 2px;
+  width: 450px;
+  height: 120px;
+  right: 290px;
+  bottom: 50px;
   background: #EBE7F8;
   border: 1px solid rgba(145, 145, 145, 0.1);
   border-radius: 20px 0px;
@@ -156,7 +156,7 @@
   /* border: 2px solid #FFFFFF; */
 }
 
-.categories h3 {
+.category h3 {
 
   font-style: normal;
   font-weight: 700;
@@ -169,7 +169,7 @@
   color: #000000;
 }
 
-.categories p {
+.category p {
   width: 600px;
   font-weight: 400;
   font-size: 16px;
@@ -184,13 +184,13 @@
 
 .individual,
 .business {
-  width: 600px;
-  height: 610px;
+  width: 640px;
+  height: 650px;
   background: #F6F8FA;
   border: 1px solid rgba(145, 145, 145, 0.1);
   border-radius: 20px;
   padding: 2%;
-  margin: 20px;
+  margin: 10px 60px;
 }
 
 .individual .title,
@@ -252,10 +252,10 @@
 }
 
 .fin-text h6 {
-  width: 402px;
+  width: 480px;
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 40px;
   /* or 37px */
 
 
@@ -286,8 +286,8 @@
   position: absolute;
   width: 400px;
   height: 560px;
-  right: 250px;
-  top: 1855px;
+  right: 350px;
+  top: 2208px;
 }
 
 .footer {
@@ -619,11 +619,11 @@
     right: 5px !important;
   }
 
-  .categories h3 {
+  .category h3 {
     font-size: 22px;
   }
 
-  .categories p {
+  .category p {
     width: 520px;
     font-size: 14px;
     line-height: 20px;
@@ -711,7 +711,7 @@
     font-size: 14px;
   }
 
-  .categories h3 {
+  .category h3 {
     font-size: 20px;
     width: 400px;
     margin: 8% 0;
@@ -734,7 +734,7 @@
     width: 120px;
   }
 
-  .categories h3 {
+  .category h3 {
     margin: 0;
   }
 
@@ -820,7 +820,7 @@
   }
 
   .landing-page,
-  .Categories,
+  .categories,
   .fin-support {
     flex-direction: column !important;
     text-align: center !important;
@@ -848,7 +848,7 @@
     bottom: 15px;
   }
 
-  .categories p {
+  .category p {
     width: 420px;
   }
 
@@ -908,11 +908,166 @@
     padding: 3% 10% !important;
   }
   .landing-page-text h2 {
-    width: 390px !important;
-    margin: 3% auto;
+    width: 345px !important;
+    margin: 8% auto 5% auto;
+}
+.landing-page-text p {
+    width: 310px;
+}
+.join {
+    right: 105px;
+    /* bottom: 129px; */
+    bottom: -5px;
+    width: 215px;
+    height: 72px;
+    background: #EBFAF3;
+}
+.join-image img {
+    width: 30px;
+}
+.join-image img:nth-child(2) {
+    right: 30px !important;
+}
+.join-image img:nth-child(1) {
+    right: 55px !important;
+}
+.category h3 {
+    font-size: 18px;
+    width: 275px;
+}
+.category p {
+    width: 335px;
+    white-space: break-spaces;
+}
+.individual .title {
+    left: 64px !important;
+    bottom: -220px !important;
+
+}
+.business .title {
+    left: 64px !important;
+    bottom: -549px !important;
+}
+.fin-image div {
+    right: 139px;
+    top: 1700px;
+}
+
+
+}
+
+@media only screen and (max-width: 391px) {
+  .nav h1 {
+    font-size: 14px;
+}
+
+
+  .join {
+    right: 90px;
+  }
+  .individual .title {
+    left: 45px !important;
+    bottom: -210px !important;
+  }
+  .business .title {
+    left: 45px !important;
+    bottom: -538px !important;
+}
+.fin-image div {
+    right: 125px;
+    top: 1680px;
+}
+.fin-text h6 {
+  width: 295px;
+  text-align: left;
+  font-size: 20px;
+  padding: 0 15px;
+}
+.fin-text p {
+  width: 272px;
+  margin: 5% 0;
+  text-align: left;
+  padding: 0 15px;
 }
 }
 
-@media only screen and (max-width: 391px) {}
+@media only screen and (max-width: 375px) {
+  .join {
+    right: 80px;
+}
 
-@media only screen and (max-width: 321px) {}
+
+  
+  .category{
+    margin: 15% auto !important;
+  }
+  .category p {
+    width: 325px;
+  }
+  .individual .title {
+    left: 38px !important;
+    bottom: -205px !important;
+  }
+  .title h4 {
+    font-size: 14px;
+}
+ .business .title {
+    left: 38px !important;
+    bottom: -534px !important;
+  }
+  .fin-image div {
+    right: 125px;
+    top: 1672px;
+  }
+  .footer p {
+    font-size: 12px;
+}
+}
+@media only screen and (max-width: 321px) {
+  .landing-page-text h2 {
+    width: 253px !important;
+    line-height: normal;
+    font-weight: bolder;
+    margin: 10% auto 5% auto;
+  }
+  .landing-page-text .btn, .fin-text .btn {
+    width: 150px;
+    height: 45px;
+  }
+  .join {
+    right: 50px;
+    /* bottom: 129px; */
+    bottom: -55px;
+  }
+  .category{
+    margin: 20% auto 0 auto !important;
+  }
+  .category p {
+    width: 290px;
+}
+.individual, .business {
+  width: 260px;
+  height: 290px;
+}
+.individual .box-image, .business .box-image {
+  width: 230px;
+  height: 125px;
+}
+.individual .title {
+  left: 30px !important;
+  bottom: -305px !important;
+}
+.business .title {
+  left: 30px !important;
+  bottom: -620px !important;
+}
+.fin-image {
+  width: 260px;
+  height: 200px;
+}
+.fin-image div {
+  right: 90px;
+  top: 1740px;
+  height: 230px;
+}
+}
