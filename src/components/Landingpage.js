@@ -26,13 +26,13 @@ const Landingpage = () => {
 
     
 
-    const myRow = {
-        display: "flex",
-        flexDirection: "row",
-        justifyContent: "space-evenly",
-        alignItems: "center",
-        margin: "5% 0 0 0"
-    };
+    // const myRow = {
+    //     display: "flex",
+    //     flexDirection: "row",
+    //     justifyContent: "space-evenly",
+    //     alignItems: "center",
+    //     margin: "5% 0 0 0"
+    // };
 
     return ( 
         <div className="container hero-page">
@@ -47,7 +47,7 @@ const Landingpage = () => {
                     </AnchorLink>
                 </div>
             </div>  
-            <div className="landing-page" style={myRow}>
+            <div className="landing-page">
                 <div className="landing-page-text">
                     <h2>
                     Get credit and asset financing with ease.

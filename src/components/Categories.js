@@ -51,9 +51,9 @@ We've got you covered with our wide selection
                     </div>
 
                     <div className="business">
-                        <div className="title" style={{right: "560px",
+                        <div className="title" style={{right: "543px",
   bottom: "-405px"}}><h4>Businesses</h4></div>
-                        <div className="box">
+                        <div className="box" style={{textAlign: "left"}}>
                             <div className="box-image"></div>
                             <h5>Renewable Energy Finance</h5>
                             <ul style={{listStyle: "inside"}}>
