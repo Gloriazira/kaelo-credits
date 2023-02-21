@@ -1,6 +1,6 @@
 // backgroundColor: "#FAFAFA";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-// import personTwo from '../assets/person2.png';
+import personTwo from '../assets/person2.png';
 
 const Support = () => {
     const myRow = {
@@ -16,8 +16,8 @@ const Support = () => {
         <div style={{ backgroundColor: "#FAFAFA", padding: "3% 0" }}>
             <div className="fin-support" style={myRow}>
                 <div className="fin-text">
-                    <h6>Fast application process.
-                        No hidden fees.</h6>
+                    <h3>Fast application process. {<br />}
+                        No hidden fees.</h3>
                     <p>
                         Get the financial support you need to take yourself or your business to the next level.
                     </p>
@@ -26,8 +26,7 @@ const Support = () => {
                     </AnchorLink>
                 </div>
                 <div className="fin-image">
-                    <div></div>
-                    {/* <img src={personTwo} alt="" className="Image" /> */}
+                    <img src={personTwo} alt="" className="Image" />
                 </div>
             </div>
         </div>
