@@ -174,8 +174,13 @@
 
 .individual,
 .business {
-  margin: 0 30px;
+  margin: 20px 30px;
   display: flex;
+}
+
+.individual img:hover, .business img:hover{
+  transform: scale(1.05, 1.05) !important;
+  transition: all 0.7s ease-in-out !important;
 }
 
 .individual img,
@@ -227,10 +232,6 @@
 
 
 /* responsiveness */
-
-
-
-@media only screen and (max-width: 1681px) {}
 
 @media only screen and (max-width: 1441px) {
 
@@ -674,6 +675,8 @@
   .business img {
     width: 350px;
   }
+
+  
 
 
 }

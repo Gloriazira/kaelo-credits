@@ -1,8 +1,15 @@
 // backgroundColor: "#FAFAFA";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import personTwo from '../assets/person2.png';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Support = () => {
+
+
+    AOS.init();
+    AOS.refresh();
+
     const myRow = {
         display: "flex",
         flexDirection: "row",
@@ -25,7 +32,7 @@ const Support = () => {
                         <button className="btn">Learn More</button>
                     </AnchorLink>
                 </div>
-                <div className="fin-image">
+                <div className="fin-image"  data-aos="fade-left" data-aos-duration="3000" data-aos-easing="linear">
                     <img src={personTwo} alt="" className="Image" />
                 </div>
             </div>
