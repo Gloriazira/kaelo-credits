@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react"
-import AnchorLink from "react-anchor-link-smooth-scroll";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -37,9 +36,9 @@ const Landingpage = () => {
         </div>
 
         <div>
-          <AnchorLink href=''>
+          <a href="https://form.jotform.com/230516000337542" target="_blank" rel="noopener noreferrer">
             <button className="btn">Learn More</button>
-          </AnchorLink>
+          </a>
         </div>
       </div>
       <div className="landing-page" id="">
@@ -52,9 +51,9 @@ const Landingpage = () => {
             We are committed to providing flexible financing for growing businesses and individuals across Africa.
           </p>
 
-          <AnchorLink href=''>
+          <a href="https://form.jotform.com/230516000337542" target="_blank" rel="noopener noreferrer">
             <button className="btn">Learn More</button>
-          </AnchorLink>
+          </a>
 
         </div>
 
