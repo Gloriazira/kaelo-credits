@@ -2,7 +2,7 @@ const Footer = () => {
     return ( 
         <div className="footer">
             <p>
-            Copyright - Kaelo Credits
+            Copyright - Kaelo Credit
             </p>
         </div>
      );
