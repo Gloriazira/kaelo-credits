@@ -1,5 +1,5 @@
 // backgroundColor: "#FAFAFA";
-import AnchorLink from "react-anchor-link-smooth-scroll";
+// import AnchorLink from "react-anchor-link-smooth-scroll";
 import personTwo from '../assets/person2.png';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -28,9 +28,12 @@ const Support = () => {
                     <p>
                         Get the financial support you need to take yourself or your business to the next level.
                     </p>
-                    <AnchorLink href='#start'>
+                    
+                    <a href="https://form.jotform.com/230516000337542" target="_blank" rel="noopener noreferrer">
                         <button className="btn">Learn More</button>
-                    </AnchorLink>
+                    </a> 
+                    
+                    
                 </div>
                 <div className="fin-image"  data-aos="fade-left" data-aos-duration="3000" data-aos-easing="linear">
                     <img src={personTwo} alt="" className="Image" />
